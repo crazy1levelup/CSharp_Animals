@@ -49,9 +49,9 @@ namespace Cthing
             {
                 if (!value.Any(char.IsDigit))
                 {
-                    name = "No Name";
+                    this.name = "No Name";
                 }
-                name = value;
+                this.name = value;
             }
         }
 
@@ -62,9 +62,9 @@ namespace Cthing
             {
                 if (value.Length > 10)
                 {
-                    sound = "No Sound";
+                    this.sound = "No Sound";
                 }
-                sound = value;
+                this.sound = value;
             }
         }
 
