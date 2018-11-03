@@ -20,7 +20,5 @@ namespace Cthing
         {
             Sound2 = sound2;
         }
-        
-
     }
 }

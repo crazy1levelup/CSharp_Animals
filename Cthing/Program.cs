@@ -23,26 +23,22 @@ namespace Cthing
                 Sound2 = "grrr"
             };
 
-            whiskers.MakeSound();
-            grover.MakeSound();
+            Animal.AnimalHealth getHealth = new Animal.AnimalHealth();
+
+
 
             whiskers.SetAnimalIDInfo(12345, "Pop Cristi");
-
             grover.SetAnimalIDInfo(321, "Gica IOn");
 
+            whiskers.MakeSound();
+            grover.MakeSound();
             whiskers.GetAnimalIDInfo();
             grover.GetAnimalIDInfo();
-
-            Animal.AnimalHealth getHealth = new Animal.AnimalHealth();
 
             Console.WriteLine("Is my animal healthy : {0}", getHealth.HealthyWeight(11, 46));
 
 
-
-
             Console.ReadLine();
-
-
         }
     }
 }

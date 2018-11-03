@@ -8,10 +8,9 @@ namespace Cthing
 {
     class Animal
     {
-
+    
         private string name;
         protected string sound;
-
 
         protected AnimalIDInfo animalIDInfo = new AnimalIDInfo();
 
@@ -30,7 +29,6 @@ namespace Cthing
         {
             Console.WriteLine($"{Name} says {Sound}");
         }
-
 
         public Animal()
             : this("No Name", "No Sound") { }  //Default constructor with no argumnent added
@@ -83,6 +81,5 @@ namespace Cthing
                 else return false;
             }
         }
-
     }
 }
